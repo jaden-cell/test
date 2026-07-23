@@ -3,6 +3,21 @@
 Target area: Scottsdale, AZ and Tempe, AZ (business networking events only).
 Lookahead window per run: next ~21 days.
 
+## Who this is for
+
+Jaden runs a local ad agency based in Tempe, targeting local/small Scottsdale
+and Tempe businesses. Events that put him in a room with local business
+owners and decision-makers (chamber mixers, small-business/entrepreneur
+networking, referral/leads groups, young professional councils) are higher
+value than generic community events — prioritize those when the list is long.
+
+## Adding new sources
+
+Just tell Claude a site, Meetup group, or social handle to track and it'll
+get added below — no need to edit this file by hand. The weekly routine
+re-reads this file from the repo each run, so new sources are picked up
+automatically on the next Monday scan.
+
 ## Chambers of Commerce
 
 - **Scottsdale Area Chamber of Commerce**
@@ -32,3 +47,10 @@ Lookahead window per run: next ~21 days.
 - Prefer events explicitly labeled networking/mixer/chamber/leads-group/breakfast over
   generic community events.
 - Always include the source URL in the calendar event description for verification.
+- **Known limitation (as of 2026-07-23):** business.scottsdalechamber.com,
+  business.tempechamber.org, business.phoenixchamber.com, and bniarizona.com all
+  return HTTP 403 to direct fetches (bot protection). Rely on web search snippets
+  and known recurrence patterns (e.g. "1st Wednesday monthly") instead of live
+  page scraping for these. Flag uncertain dates/venues in the calendar event
+  description rather than inventing specifics, and note anything that couldn't
+  be confirmed in the run summary.
