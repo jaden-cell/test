@@ -39,6 +39,11 @@ automatically on the next Monday scan.
 - **Tempe/Scottsdale Young Professionals or industry-specific groups** — search each run,
   since these rotate (chamber "young professionals council" pages, local Rotary/Kiwanis
   business mixers, coworking-space hosted events e.g. WeWork/Galvanize Phoenix)
+- **Eliances @ MAC6 Conscious Workspace** (1430 W Broadway Rd #201, Tempe) — recurring
+  entrepreneur/startup/investor networking series, strong ICP fit (startup founders =
+  ad agency prospects), found via Eventbrite listing "Tempe AZ Business Networking Event
+  & Beyond for Entrepreneurs & Startups." Eventbrite itself is unreachable (see limitation
+  below), so confirm specific dates via web search snippets only.
 
 ## Notes for the agent
 
@@ -54,3 +59,8 @@ automatically on the next Monday scan.
   page scraping for these. Flag uncertain dates/venues in the calendar event
   description rather than inventing specifics, and note anything that couldn't
   be confirmed in the run summary.
+- **Known limitation (as of 2026-08-10):** eventbrite.com is blocked entirely by
+  the network egress proxy (not just bot-blocked — fetches fail outright). Events
+  discovered there (e.g. Eliances @ MAC6) can only be tracked via web search
+  snippets; never fabricate a specific date/venue for an Eventbrite listing you
+  can't otherwise confirm.
