@@ -28,14 +28,12 @@ and adds new ones straight to the calendar.
 5. Send a short summary of what was added, plus anything skipped because the
    date/venue couldn't be confirmed (see the known-limitation note in
    `sources.md`).
-6. Create a Gmail **draft** (to jaden@addrivesolutions.com) with the same
-   summary, so there's an email waiting to send. Note: the Gmail connector
-   only supports creating drafts, not sending — true automatic email
-   delivery isn't possible with current tool access. (A routine created via
-   the claude.ai Routines UI directly, rather than from within a session,
-   may support real auto-send email notifications — worth trying there if
-   fully automatic email matters more than the calendar auto-add working
-   reliably; a quick test showed that mode loses Google Calendar access.)
+6. Email the same summary to jaden@addrivesolutions.com via Gmail
+   `send_message` (as of 2026-08-17, real send access is available, so this
+   lands in the inbox automatically). Falls back to a Gmail **draft** if
+   `send_message` isn't available in a given run's toolset — connector
+   access has flickered between runs before, so the routine prompt keeps
+   the draft path as a safety net.
 
 ## Changing behavior
 
