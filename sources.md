@@ -52,15 +52,21 @@ automatically on the next Monday scan.
 - Prefer events explicitly labeled networking/mixer/chamber/leads-group/breakfast over
   generic community events.
 - Always include the source URL in the calendar event description for verification.
-- **Known limitation (as of 2026-07-23):** business.scottsdalechamber.com,
-  business.tempechamber.org, business.phoenixchamber.com, and bniarizona.com all
-  return HTTP 403 to direct fetches (bot protection). Rely on web search snippets
-  and known recurrence patterns (e.g. "1st Wednesday monthly") instead of live
-  page scraping for these. Flag uncertain dates/venues in the calendar event
-  description rather than inventing specifics, and note anything that couldn't
-  be confirmed in the run summary.
-- **Known limitation (as of 2026-08-10):** eventbrite.com is blocked entirely by
-  the network egress proxy (not just bot-blocked — fetches fail outright). Events
-  discovered there (e.g. Eliances @ MAC6) can only be tracked via web search
-  snippets; never fabricate a specific date/venue for an Eventbrite listing you
-  can't otherwise confirm.
+- **Known limitation, corrected 2026-08-17 (was misdiagnosed 2026-07-23 /
+  2026-08-10 as per-site bot protection):** this environment's network policy
+  blocks direct page fetches (WebFetch and even raw curl) to essentially all
+  general websites — chambers, BNI, Eventbrite, AllEvents.in, Meetup, 1 Million
+  Cups, SCORE, Local First AZ, Downtown Tempe Authority, city .gov sites,
+  LinkedIn, Facebook, even example.com all fail at the network layer, not the
+  site layer. Only a narrow dev-tooling allowlist works directly (github.com,
+  npm/pypi registries, anthropic.com). This is a property of the Claude Code
+  Remote *environment's* network access setting (chosen when the environment
+  was created — see
+  https://code.claude.com/docs/en/claude-code-on-the-web), not something a
+  "more crawlable" source will fix. **WebSearch still works** (it doesn't go
+  through this proxy) and is the only reliable discovery method under the
+  current environment settings — rely on search snippets and known
+  recurrence patterns, flag uncertain dates/venues rather than inventing
+  them, and note anything unconfirmed in the run summary. If Jaden wants true
+  live page crawling, the fix is changing this environment's network access
+  policy to a more permissive setting, not swapping sources.
