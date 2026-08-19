@@ -1,6 +1,10 @@
 # Sources
 
-Target area: Scottsdale, AZ and Tempe, AZ (business networking events only).
+Target area: Scottsdale, AZ and Tempe, AZ for web/search-sourced events.
+**Email-sourced events may also be virtual or Greater-Phoenix-wide** (scope
+broadened 2026-08-19 — see "Email newsletters" below) since the goal is
+getting Jaden in front of local business owners, and a free virtual regional
+networking event still counts toward that.
 Lookahead window per run: next ~21 days.
 
 ## Who this is for
@@ -44,6 +48,37 @@ automatically on the next Monday scan.
   ad agency prospects), found via Eventbrite listing "Tempe AZ Business Networking Event
   & Beyond for Entrepreneurs & Startups." Eventbrite itself is unreachable (see limitation
   below), so confirm specific dates via web search snippets only.
+
+## Email newsletters (added 2026-08-19 — the main working discovery channel)
+
+Gmail access doesn't go through this environment's blocked network path (see
+limitation below), and newsletter emails already contain the event details
+as plain text — no page-fetch needed. This is currently the **most reliable**
+source since it sidesteps the network restriction entirely, including for
+platforms (Eventbrite, Meetup) that can't be crawled directly.
+
+- **How it works each run:** search Jaden's inbox (jaden@addrivesolutions.com)
+  for event-invite-looking emails from roughly the last 9 days (to overlap
+  the weekly cadence), read the full plain-text body, and pull date/time/
+  cost/location/registration link directly from the text. Never fetch the
+  registration link itself — everything needed is already in the email.
+- **Confirmed working example:** "Strategic Networks" / Tipclub
+  (mike@tipclub.com) — sends free virtual Greater Phoenix business
+  networking event invites. Forwarded to Jaden via rami@pointintimestudios.com;
+  worth Jaden subscribing directly for a steadier stream.
+- **Recommended additional signups** (Jaden should sign up himself; the
+  routine can't subscribe to mailing lists):
+  - Scottsdale Area Chamber of Commerce newsletter/eBlast
+  - Tempe Chamber of Commerce newsletter
+  - Greater Phoenix Chamber newsletter
+  - BNI Arizona regional newsletter
+  - 1 Million Cups Phoenix/Tempe mailing list
+  - **Follow organizers on Eventbrite and Meetup** (Eliances, Network Live AZ,
+    individual chambers) — following sends event announcements by email,
+    which turns two otherwise-unreachable platforms into readable sources.
+- A "Networking Events" Gmail label exists for optional manual organization,
+  but the routine's search doesn't depend on it (no filter-creation tool is
+  available to auto-apply it to incoming mail).
 
 ## Notes for the agent
 
