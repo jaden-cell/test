@@ -62,20 +62,37 @@ platforms (Eventbrite, Meetup) that can't be crawled directly.
   the weekly cadence), read the full plain-text body, and pull date/time/
   cost/location/registration link directly from the text. Never fetch the
   registration link itself — everything needed is already in the email.
-- **Confirmed working example:** "Strategic Networks" / Tipclub
-  (mike@tipclub.com) — sends free virtual Greater Phoenix business
-  networking event invites. Forwarded to Jaden via rami@pointintimestudios.com;
-  worth Jaden subscribing directly for a steadier stream.
-- **Recommended additional signups** (Jaden should sign up himself; the
-  routine can't subscribe to mailing lists):
-  - Scottsdale Area Chamber of Commerce newsletter/eBlast
-  - Tempe Chamber of Commerce newsletter
-  - Greater Phoenix Chamber newsletter
-  - BNI Arizona regional newsletter
-  - 1 Million Cups Phoenix/Tempe mailing list
-  - **Follow organizers on Eventbrite and Meetup** (Eliances, Network Live AZ,
-    individual chambers) — following sends event announcements by email,
-    which turns two otherwise-unreachable platforms into readable sources.
+- **Confirmed working, subscribed as of 2026-08-19:**
+  - "Strategic Networks" / Tipclub (mike@tipclub.com) — free virtual
+    Greater Phoenix business networking event invites.
+  - The Strategic Networker (thestrategicnetworker@substack.com, also
+    Mike Marcellus) — subscription-confirmation email seen 2026-08-19.
+  - Scottsdale Area Chamber of Commerce eBlast
+    (info-scottsdalechamber.com@shared1.ccsend.com) — confirmed a real,
+    fully-detailed dated event (Scottsdale Airpark Forum, Oct 22) via this
+    channel on the first email received.
+  - Meetup.com event confirmations (info@meetup.com) — also trigger Gmail's
+    own native "event from email" auto-add to Jaden's calendar as a
+    side effect; harmless but can look like a near-duplicate of an event
+    the routine already added as a recurring series.
+- **The Phoenix Networker** (phoenixnetworker@substack.com, also run by
+  Mike Marcellus) — weekly digest with a dedicated "EVENTS: Business &
+  Networking" section listing many Phoenix-area networking events by date.
+  High value as a discovery source, but entries typically list only a date
+  and a "Register" link (no time/location/cost in the plain text) — per the
+  no-inventing-details rule, mention these to Jaden as leads to check
+  himself rather than auto-adding them without a confirmed time.
+- rami@pointintimestudios.com (Jaden's business partner) also forwards
+  event invites he receives directly (e.g. AMA Phoenix Marketing Mixer) —
+  useful, but forwards can arrive with only 1-2 days' notice, which the
+  weekly Monday cadence can miss entirely if the event falls mid-week.
+- **Still worth signing up for** (not yet confirmed in Jaden's inbox):
+  Tempe Chamber of Commerce newsletter, Greater Phoenix Chamber newsletter,
+  BNI Arizona regional newsletter, 1 Million Cups Phoenix/Tempe mailing
+  list, AMA Phoenix (communications@amaphoenix.org) directly, and
+  **following organizers on Eventbrite and Meetup** (Eliances, Network Live
+  AZ) — following sends event announcements by email, turning two
+  otherwise-unreachable platforms into readable sources.
 - A "Networking Events" Gmail label exists for optional manual organization,
   but the routine's search doesn't depend on it (no filter-creation tool is
   available to auto-apply it to incoming mail).
