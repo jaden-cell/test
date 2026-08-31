@@ -27,7 +27,9 @@ automatically on the next Monday scan.
 - **Scottsdale Area Chamber of Commerce**
   - Events: https://business.scottsdalechamber.com/events/calendar
   - Also check: https://scottsdalechamber.chambermaster.com/events/
-  - Known recurring: PM Connect (1st Wed, 5-7pm), AM Connect (3rd Thu, 7:30-9am)
+  - Known recurring: PM Connect (1st Wed, 5-7pm), AM Connect (3rd Thu,
+    7:30-9am, venue rotates monthly) - both now on Jaden's calendar as
+    recurring series, confirmed via the chamber's own eBlast newsletter.
 - **Tempe Chamber of Commerce**
   - Events: https://business.tempechamber.org/calendar
   - Also: https://business.tempechamber.org/memberevents
