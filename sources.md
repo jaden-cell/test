@@ -33,9 +33,22 @@ automatically on the next Monday scan.
 - **Tempe Chamber of Commerce**
   - Events: https://business.tempechamber.org/calendar
   - Also: https://business.tempechamber.org/memberevents
-  - Known recurring: Networking @ Noon (monthly), Business After Hours Mixer
+  - Newsletter: info@tempechamberofcommerce.ccsend.com sends a "[Month]
+    Chamber Events Lineup" email with a full dated list each month —
+    confirmed working 2026-09-02, this is the best source for this chamber.
+  - Known recurring: Networking @ Noon, 3rd **Wednesday** of the month,
+    noon-1pm (**corrected 2026-09-07** — was wrongly set to 3rd Tuesday
+    from an earlier web-search guess; the chamber's own newsletter confirmed
+    Wednesday, event was deleted and recreated with the right RRULE).
+    Business After Hours Mixer is also monthly but no fixed weekday
+    confirmed yet — take the date from the newsletter each time.
 - **Greater Phoenix Chamber**
   - Events: https://www.phoenixchamber.com/events/ (filter for Scottsdale/Tempe-area listings)
+  - Newsletter: info@phoenixchamber.com (Mailchimp) — confirmed working
+    2026-09-04 via a forward from Rami. Sends "After 5 Mixer" event invites,
+    but these often omit the exact start time in the plain text (just says
+    "After 5" and the date) — don't guess a time, ask Jaden to confirm via
+    the registration link before adding to calendar.
 
 ## Other business networking groups
 
