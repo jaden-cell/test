@@ -15,6 +15,32 @@ owners and decision-makers (chamber mixers, small-business/entrepreneur
 networking, referral/leads groups, young professional councils) are higher
 value than generic community events — prioritize those when the list is long.
 
+## Calendar formatting (required as of 2026-09-12)
+
+Every event added to the calendar — new adds and, going forward, the
+existing ones — must be tagged in the **event title** with cost and
+priority, prefix format: `[P<1|2|3> · <cost>]` before the event name.
+
+- **Cost**: state plainly, e.g. `FREE`, `$20`, `FREE members / $20 guests`,
+  or `Cost not stated` if the source didn't say (never invent a price —
+  say "confirm via registration link" in the description instead).
+- **Priority** (relevance to meeting potential clients — local
+  business owners/decision-makers who could hire an ad agency):
+  - **P1** — audience is explicitly small business owners, founders,
+    entrepreneurs, or a referral/leads group (chamber mixers, Network
+    Live AZ, 101 Referral Network, Tempe Talks-style business-owner
+    forums). These are the ones worth prioritizing time around.
+  - **P2** — moderate fit: broader/virtual regional business events,
+    young-professional or industry-specific audiences with partial
+    overlap, or educational/panel sessions rather than open mixers.
+  - **P3** — low fit: informational-only, civic/political, or generic
+    community events that happened to come up in a business-adjacent
+    search — usually shouldn't be added at all, but if added (e.g. a
+    high-profile one worth just knowing about), tag it P3.
+  - Add one line to the top of the **description** explaining the
+    priority call, e.g. "Priority 1 (high relevance — explicitly small
+    business owners)."
+
 ## Adding new sources
 
 Just tell Claude a site, Meetup group, or social handle to track and it'll
@@ -52,6 +78,20 @@ automatically on the next Monday scan.
 
 ## Other business networking groups
 
+- **101 Referral Network** (added 2026-09-12) — https://101referralnetwork.com/events/
+  Referral/leads group for local business owners, non-industry-specific,
+  since 2011. P1 candidate — explicitly local business owners. The events
+  page itself is blocked like everything else (see network limitation
+  below), but WebSearch found a confirmed recurring schedule: Scottsdale
+  chapter meets 3rd Wednesday, lunch 11:30am, at Times Media Group,
+  1900 W Broadway Rd, Tempe, AZ 85282; there's also a weekly Tuesday
+  6:30pm virtual (Zoom) meeting. Membership $20/mo ($40/mo VIP), but
+  guests can attend twice free before being asked to join — that makes
+  the first two visits P1 · FREE opportunities worth flagging. No
+  newsletter signup found via search; recommend Jaden email
+  info@101referralnetwork.com to ask about guest visits / getting on
+  their list, since that'd be a much more reliable channel than
+  re-searching each week.
 - **BNI Arizona** (leads groups w/ Scottsdale/Tempe chapters) — https://bniaz.com/events/
 - **Meetup.com** — search "business networking Scottsdale AZ" and "business networking Tempe AZ"
 - **ASU SkySong** (Scottsdale innovation center, hosts startup/business events) — https://skysong.asu.edu/events
