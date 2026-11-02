@@ -62,10 +62,16 @@ automatically on the next Monday scan.
   - Newsletter: info@tempechamberofcommerce.ccsend.com sends a "[Month]
     Chamber Events Lineup" email with a full dated list each month —
     confirmed working 2026-09-02, this is the best source for this chamber.
-  - Known recurring: Networking @ Noon, 3rd **Wednesday** of the month,
-    noon-1pm (**corrected 2026-09-07** — was wrongly set to 3rd Tuesday
+  - Known recurring: Networking @ Noon, nominally 3rd **Wednesday** of the
+    month, noon-1pm (**corrected 2026-09-07** — was wrongly set to 3rd Tuesday
     from an earlier web-search guess; the chamber's own newsletter confirmed
     Wednesday, event was deleted and recreated with the right RRULE).
+    **Further correction 2026-11-02**: the November occurrence was actually
+    Nov 10 (a Tuesday), not the 18th as the RRULE predicted — the chamber's
+    newsletter is the ground truth, the weekday isn't fixed every month.
+    The recurring series is left in place as a placeholder/reminder, but
+    **always cross-check the actual date against that month's newsletter
+    and move the occurrence if needed** rather than trusting the RRULE.
     Business After Hours Mixer is also monthly but no fixed weekday
     confirmed yet — take the date from the newsletter each time.
 - **Greater Phoenix Chamber**
